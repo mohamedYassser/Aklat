@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189438440584",
+    "project_id": "aklat-d2a74",
+    "storage_bucket": "aklat-d2a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189438440584:android:1b52f67628f9b779e09b3d",
+        "android_client_info": {
+          "package_name": "com.example.aklat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189438440584-5nmsqfsvpti0efebs1ggq7rfeldaa6n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aklat",
+            "certificate_hash": "a3eb447aa948bb2ab7eb9af44f94437e5d0cebc9"
+          }
+        },
+        {
+          "client_id": "189438440584-7vj49tc9aeqg6uek8i981nhhkuajb4f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq1goF2ucUswlH9XjsNb5g7bZEZHEcrZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189438440584-7vj49tc9aeqg6uek8i981nhhkuajb4f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

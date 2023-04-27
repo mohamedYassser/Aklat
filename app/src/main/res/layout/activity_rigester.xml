@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rigester"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@color/white"
+    >
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="Your Name"
+        android:textColorHint="#FF9800"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/phone"
+
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="Your Phone "
+        android:textColorHint="#FF9800"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlSymmetry"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/email"
+
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="#FF9800"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlSymmetry"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="#FF9800"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlSymmetry"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#FF9800"
+        android:text="Register"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

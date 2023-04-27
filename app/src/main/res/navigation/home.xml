@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aklat.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_mealFragment"
+            app:destination="@id/mealFragment" >
+            <argument android:name="cat"
+                 app:argType="string"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/mealFragment"
+        android:name="com.example.aklat.MealFragment"
+        android:label="fragment_meal"
+        tools:layout="@layout/fragment_meal" >
+        <argument android:name="cat"
+            app:argType="string"/>
+
+        <action
+            android:id="@+id/action_mealFragment_to_decFragment"
+            app:destination="@id/decFragment" >
+            <argument
+                android:name="dec"
+                app:argType="string"/>
+        </action>
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.example.aklat.FavFragment"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.aklat.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.aklat.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/decFragment"
+        android:name="com.example.aklat.DecFragment"
+        android:label="fragment_dec"
+        tools:layout="@layout/fragment_dec">
+    <argument
+        android:name="dec"
+        app:argType="string"/>
+</fragment>
+    </navigation>
